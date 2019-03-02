@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 //const connection = require('./DB_config/db_connect');
-/*const Beacon = require('./models/beacons/Beacon');
+const Beacon = require('./models/beacons/Beacon');
 const Building = require('./models/building/Building');
-const path = require('path');*/
+const path = require('path');
 
 //Костыль для того, чтобы сервер общялся с клиентом. ЧИТАЙ ПРО CORS
 app.use(function(req, res, next) {
@@ -17,8 +17,9 @@ app.get('/', (req,res)=>{
     Beacon.findAll()
         .then(beacon => {
             console.log(beacon[0].dataValues);
+            res.send(beacon[0].dataValues);
         });
-    res.send(beacon[0].dataValues);
+
     /*res.send('Hello');*/
 });
 

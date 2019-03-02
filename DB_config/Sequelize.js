@@ -4,6 +4,9 @@ const   Sequelize = require('sequelize')
 const sequelize = new Sequelize(DB, USER, PASSWORD, {
     host: HOST,
     dialect: 'postgres',
+    dialectOptions: {
+        "ssl": true
+    },
     operatorsAliases: false,
     port:PORT,
 
