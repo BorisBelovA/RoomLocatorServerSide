@@ -24,16 +24,16 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/get_building', (req,res)=>{
-    /*Building.findAll()
+    Building.findAll()
         .then(building=>{
             console.log(building[0].dataValues);
+            res.send(building[0].dataValues);
         });
-    res.send('Find Building');*/
-    res.send('Find Building')
+    //res.send('Find Building');
 });
 
 app.get('/get_building/:id', (req,res)=>{
-    /*let id = req.params.id;
+    let id = req.params.id;
     Building.findAll({
         where:{
             ID:id
@@ -42,16 +42,17 @@ app.get('/get_building/:id', (req,res)=>{
         console.log(result[0].dataValues)
         let matrix = result[0].dataValues.Matrix;
         console.log(matrix[0][0])
-    })*/
-    res.send('Find Building', req.params.id)
+        res.send(result[0].dataValues)
+    })
+    //res.send('Find Building', req.params.id)
 })
 
 app.get('/map', (req,res)=>{
-    /*let pathToMap = __dirname+'/Maps/';
+    let pathToMap = __dirname+'/Maps/';
     console.log(pathToMap);
     res.setHeader('Content-Type', 'image/svg+xml');
-    res.sendFile(pathToMap+'HomePlan.svg');*/
-    res.send('Map page')
+    res.sendFile(pathToMap+'HomePlan.svg');
+    //res.send('Map page')
 })
 
 let port = process.env.PORT;
