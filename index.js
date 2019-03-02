@@ -22,16 +22,17 @@ app.get('/', (req,res)=>{
     res.send('Hello');
 });
 
-/*app.get('/get_building', (req,res)=>{
-    Building.findAll()
+app.get('/get_building', (req,res)=>{
+    /*Building.findAll()
         .then(building=>{
             console.log(building[0].dataValues);
         });
-    res.send('Find Building');
-});*/
+    res.send('Find Building');*/
+    res.send('Find Building')
+});
 
-/*app.get('/get_building/:id', (req,res)=>{
-    let id = req.params.id;
+app.get('/get_building/:id', (req,res)=>{
+    /*let id = req.params.id;
     Building.findAll({
         where:{
             ID:id
@@ -40,16 +41,17 @@ app.get('/', (req,res)=>{
         console.log(result[0].dataValues)
         let matrix = result[0].dataValues.Matrix;
         console.log(matrix[0][0])
-    })
-    res.send('Ok')
-})*/
+    })*/
+    res.send('Find Building', req.params.id)
+})
 
-/*app.get('/map', (req,res)=>{
-    let pathToMap = __dirname+'/Maps/';
+app.get('/map', (req,res)=>{
+    /*let pathToMap = __dirname+'/Maps/';
     console.log(pathToMap);
     res.setHeader('Content-Type', 'image/svg+xml');
-    res.sendFile(pathToMap+'HomePlan.svg');
-})*/
+    res.sendFile(pathToMap+'HomePlan.svg');*/
+    res.send('Map page')
+})
 
 let port = process.env.PORT;
 if (port == null || port == "") {
