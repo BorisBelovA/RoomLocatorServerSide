@@ -5,12 +5,18 @@ const Beacon = require('./models/beacons/Beacon');
 const Building = require('./models/building/Building');
 const path = require('path');
 
+const fs = require('fs');
+
 //Костыль для того, чтобы сервер общялся с клиентом. ЧИТАЙ ПРО CORS
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.header("Access-Control-Allow-Credentials",true);
     next();
+});
+
+app.use(function(req, res, next) {
+    res.status(404).send(`Sorry, can't find that map! :(`);
 });
 
 app.get('/', (req,res)=>{
@@ -46,18 +52,23 @@ app.get('/get_building/:id', (req,res)=>{
     })
     //res.send('Find Building', req.params.id)
 })
-
-app.get('/map', (req,res)=>{
-    let pathToMap = __dirname+'/Maps/';
-    console.log(pathToMap);
-    res.setHeader('Content-Type', 'image/svg+xml');
-    res.sendFile(pathToMap+'HomePlan.svg');
-    //res.send('Map page')
-})
+//При запросе выдать соответствующую карту
+app.get('/map/:name', (req,res)=>{
+    try{
+        let path = `${__dirname}/Maps/${req.params.name}/`;
+        res.setHeader('type','image/svg+xml');
+        res.sendFile(`${path}/Map.svg`);
+    }catch (error) {
+        console.log(error.name);
+        res.send('No such map');
+    }
+});
 
 let port = process.env.PORT;
 if (port == null || port == "") {
     port = 3001;
 }
 app.listen(port);
+
+
 
