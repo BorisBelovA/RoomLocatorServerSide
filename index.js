@@ -14,12 +14,12 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req,res)=>{
-    /*Beacon.findAll()
+    Beacon.findAll()
         .then(beacon => {
             console.log(beacon[0].dataValues);
         });
-    res.send('Find One');*/
-    res.send('Hello');
+    res.send(beacon[0].dataValues);
+    /*res.send('Hello');*/
 });
 
 app.get('/get_building', (req,res)=>{
