@@ -15,10 +15,6 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.use(function(req, res, next) {
-    res.status(404).send(`Sorry, can't find that map! :(`);
-});
-
 app.get('/', (req,res)=>{
     Beacon.findAll()
         .then(beacon => {
@@ -52,17 +48,21 @@ app.get('/get_building/:id', (req,res)=>{
     })
     //res.send('Find Building', req.params.id)
 })
+
+
 //При запросе выдать соответствующую карту
 app.get('/map/:name', (req,res)=>{
     try{
+        if(res.statusCode!==200) throw new Error(`Sorry, can't find that map! :(`);
         let path = `${__dirname}/Maps/${req.params.name}/`;
         res.setHeader('type','image/svg+xml');
         res.sendFile(`${path}/Map.svg`);
     }catch (error) {
-        console.log(error.name);
-        res.send('No such map');
+        res.send(`Sorry, can't find that map! :(`);
+        console.log(error.name, error.message);
     }
 });
+
 
 let port = process.env.PORT;
 if (port == null || port == "") {
