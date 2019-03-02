@@ -1,10 +1,11 @@
-const {HOST, USER,DB, PASSWORD} = require('./db_connect');
+const {HOST, USER,DB, PASSWORD, PORT} = require('./db_connect');
 const   Sequelize = require('sequelize')
 
 const sequelize = new Sequelize(DB, USER, PASSWORD, {
     host: HOST,
     dialect: 'postgres',
     operatorsAliases: false,
+    port:PORT,
 
     pool: {
         max: 5,
