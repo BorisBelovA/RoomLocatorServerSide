@@ -52,7 +52,8 @@ app.get('/get_building/:id', (req,res)=>{
 
 //При запросе выдать соответствующую карту
 app.get('/map/:name', (req,res)=>{
-    let path = `${__dirname}/Maps/${req.params.name}/`;
+    let name = req.params.name.toLocaleLowerCase();
+    let path = `${__dirname}/Maps/${name}/`;
     res.setHeader('type','image/svg+xml');
     res.sendFile(`${path}/Map.svg`, (err)=>{
         //Выводим ошибку пользователю, а сами можем залогировать ее
