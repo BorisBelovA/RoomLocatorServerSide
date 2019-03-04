@@ -4,7 +4,7 @@
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1125 846" style="enable-background:new 0 0 1125 846;" xml:space="preserve">
-<g id="Fllor_1">
+<g id="Floor_1">
 <path id="Entrance"  class="room" pointer-events="none" d="M425.5,173.5V0.5h300v173h-10v-163h-280v163H425.5z"/>
 <g id="Livingroom" class="room">
 	<path pointer-events="none" class="room" d="M470.5,570.5H0.5v-400h470v10h-460v380h460V570.5z"/>
@@ -238,7 +238,7 @@
 <line id="Corss-1-Cross-2" class="st6" x1="582" y1="371.5" x2="582" y2="642"/>
 </g>
 
-<g id="Fllor_2">
+<g id="Floor_2">
 <path id="Entrance_2"  class="room" pointer-events="none" d="M425.5,173.5V0.5h300v173h-10v-163h-280v163H425.5z"/>
 <g id="Livingroom" class="room">
 	<path pointer-events="none" class="room" d="M470.5,570.5H0.5v-400h470v10h-460v380h460V570.5z"/>
