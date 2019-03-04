@@ -52,17 +52,13 @@ app.get('/get_building/:id', (req,res)=>{
 
 //При запросе выдать соответствующую карту
 app.get('/map/:name', (req,res)=>{
-    try{
-        if(res.statusCode!==200) throw new Error(`Sorry, can't find that map! :(`);
-        let path = `${__dirname}/Maps/${req.params.name}/`;
-        res.setHeader('type','image/svg+xml');
-        res.sendFile(`${path}/Map.svg`);
-    }catch (error) {
-        res.send(`Sorry, can't find that map! :(`);
-        console.log(error.name, error.message);
-    }
+    let path = `${__dirname}/Maps/${req.params.name}/`;
+    res.setHeader('type','image/svg+xml');
+    res.sendFile(`${path}/Map.svg`, (err)=>{
+        //Выводим ошибку пользователю, а сами можем залогировать ее
+        if (err) res.send('Sorry, can\'t find that map! :(')
+    });
 });
-
 
 let port = process.env.PORT;
 if (port == null || port == "") {
