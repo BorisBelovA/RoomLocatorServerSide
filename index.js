@@ -55,10 +55,11 @@ app.get('/map/:name', (req,res)=>{
     let name = req.params.name.toLocaleLowerCase();
     let path = `${__dirname}/Maps/${name}/`;
     res.setHeader('type','image/svg+xml');
-    res.sendFile(`${path}/Map.svg`, (err)=>{
+    /*res.sendFile(`${path}/Map.svg`, (err)=>{
         //Выводим ошибку пользователю, а сами можем залогировать ее
         if (err) res.send('Sorry, can\'t find that map! :(')
-    });
+    });*/
+    res.sendFile(`${path}/Map.svg`);
 });
 
 let port = process.env.PORT;
