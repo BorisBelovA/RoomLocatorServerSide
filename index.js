@@ -66,9 +66,9 @@ let port = process.env.PORT;
 if (port == null || port == "") {
     port = 3001;
 }
-//app.listen(port);
+app.listen(port);
 
-const numCPUs = require('os').cpus().length;
+/*const numCPUs = require('os').cpus().length;
 const cluster = require('cluster');
 
 console.log(numCPUs);
@@ -82,5 +82,5 @@ if(cluster.isMaster){
     cluster.on('exit', function () {
         console.log(`Cluster ID: ${cluster.worker.id} is out`)
     })
-}
+}*/
 
