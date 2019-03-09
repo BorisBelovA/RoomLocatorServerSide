@@ -3,9 +3,9 @@ const app = express();
 //const connection = require('./DB_config/db_connect');
 const Beacon = require('./models/beacons/Beacon');
 const Building = require('./models/building/Building');
-const path = require('path');
+/*const path = require('path');
 
-const fs = require('fs');
+const fs = require('fs');*/
 
 //Костыль для того, чтобы сервер общялся с клиентом. ЧИТАЙ ПРО CORS
 app.use(function(req, res, next) {
@@ -68,19 +68,4 @@ if (port == null || port == "") {
 }
 app.listen(port);
 
-/*const numCPUs = require('os').cpus().length;
-const cluster = require('cluster');
-
-console.log(numCPUs);
-
-if(cluster.isMaster){
-    console.log('Yes it is master')
-    cluster.fork()
-}else{
-    console.log(`Cluster ID: ${cluster.worker.id}`)
-    app.listen(port);
-    cluster.on('exit', function () {
-        console.log(`Cluster ID: ${cluster.worker.id} is out`)
-    })
-}*/
 
