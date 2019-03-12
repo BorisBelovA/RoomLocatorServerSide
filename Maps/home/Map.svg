@@ -233,5 +233,5 @@
 <circle id="Cross-1" class="st6" cx="582" cy="371.5" r="2.5"/>
 <circle id="Cross-2" class="st6" cx="582" cy="642" r="2.5"/>
 <circle id="Cross-3" class="st6" cx="436.9" cy="642" r="2.5"/>
-<line id="Corss-1-Cross-2" class="st6" x1="582" y1="371.5" x2="582" y2="642"/>
+<line id="Cross-1-Cross-2" class="st6" x1="582" y1="371.5" x2="582" y2="642"/>
 </svg>
