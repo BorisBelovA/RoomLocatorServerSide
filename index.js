@@ -97,11 +97,12 @@ app.get('/map/:name', (req,res)=>{
     .then(()=>{
         console.log(answer)
     });*/
-    retrievAllDataAboutBuilding(1).then(result=>{
+    retrievAllDataAboutBuilding(2).then(result=>{
         //console.log(result)});
         res.setHeader('type','image/svg+xml');
         res.send(result);
     });
+
 
     //res.setHeader('type','image/svg+xml');
     /*res.sendFile(`${path}/Map.svg`, (err)=>{

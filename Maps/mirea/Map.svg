@@ -240,7 +240,7 @@
 
 <g id="Floor_2">
 <path id="Entrance_2"  class="room" pointer-events="none" d="M425.5,173.5V0.5h300v173h-10v-163h-280v163H425.5z"/>
-<g id="Livingroom" class="room">
+<g id="Livingroom_2" class="room">
 	<path pointer-events="none" class="room" d="M470.5,570.5H0.5v-400h470v10h-460v380h460V570.5z"/>
 	<rect x="465.5" y="170.5" pointer-events="none" class="room" width="10" height="122"/>
 	<rect x="465.5" y="450.5" pointer-events="none" class="room" width="10" height="120"/>
