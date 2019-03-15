@@ -3,9 +3,9 @@ const app = express();
 //const connection = require('./DB_config/db_connect');
 const Beacon = require('./models/beacons/Beacon');
 const Building = require('./models/building/Building');
-/*const path = require('path');
+const path = require('path');
 
-const fs = require('fs');*/
+const fs = require('fs');
 
 //Костыль для того, чтобы сервер общялся с клиентом. ЧИТАЙ ПРО CORS
 app.use(function(req, res, next) {
@@ -50,16 +50,67 @@ app.get('/get_building/:id', (req,res)=>{
 })
 
 
+function getMap(mapName){
+    let path = `${__dirname}/Maps/${mapName}`;
+    console.log(path)
+    return new Promise((resolve,reject)=>{
+        fs.readFile(`${path}/Map.svg`, (err,data)=> {
+            if (err) reject(err);
+            else resolve(data.toString());
+        });
+    })
+}
+
+function getBulding(building_ID){
+    return Building.findAll({
+        where:{
+            ID:building_ID
+        }
+    })
+}
+
+async function retrievAllDataAboutBuilding(building_ID){
+    //При получении ID здания -> обращаемся в БД за матрицей и имнем здания
+    //Имея имя здания находим карту, Формируем объект-ответ для пользователя {map:map,matrix:matrix}
+    let query = await getBulding(building_ID);
+    let map = await getMap(query[0].dataValues.Name);
+    let matrix = query[0].dataValues.Matrix;
+    return {map:map,matrix:matrix};
+}
+
+
 //При запросе выдать соответствующую карту
 app.get('/map/:name', (req,res)=>{
     let name = req.params.name.toLocaleLowerCase();
-    let path = `${__dirname}/Maps/${name}/`;
-    res.setHeader('type','image/svg+xml');
+    /*let answer = {
+        map:null,
+        matrix:null
+    }
+    Building.findAll({
+        where:{
+            Name:name
+        }
+    }).then(result=>{
+        answer.matrix = result[0].dataValues.Matrix;
+    })
+    .then(()=>{
+        console.log(answer)
+    });*/
+    retrievAllDataAboutBuilding(2).then(result=>{
+        //console.log(result)});
+        res.setHeader('type','image/svg+xml');
+        res.send(result);
+    });
+
+    //res.setHeader('type','image/svg+xml');
     /*res.sendFile(`${path}/Map.svg`, (err)=>{
         //Выводим ошибку пользователю, а сами можем залогировать ее
         if (err) res.send('Sorry, can\'t find that map! :(')
     });*/
-    res.sendFile(`${path}/Map.svg`);
+
+    //res.send('ok');
+
+    //res.sendFile(`${path}/Map.svg`);
 });
 
 let port = process.env.PORT;
