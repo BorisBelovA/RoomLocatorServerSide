@@ -75,7 +75,8 @@ async function retrievAllDataAboutBuilding(building_ID){
     let query = await getBulding(building_ID);
     let map = await getMap(query[0].dataValues.Name);
     let matrix = query[0].dataValues.Matrix;
-    return {map:map,matrix:matrix};
+    let nodes = query[0].dataValues.Nodes;
+    return {map:map,matrix:matrix, nodes:nodes};
 }
 
 

@@ -6,7 +6,8 @@ const Building = sequelize.define('Buildings',{
         primaryKey:true
     },
     Name:Sequelize.STRING,
-    Matrix:Sequelize.ARRAY(Sequelize.ENUM)
+    Matrix:Sequelize.ARRAY(Sequelize.ENUM),
+    Nodes:Sequelize.ARRAY(Sequelize.STRING)
     },
     {
         timestamps: false
