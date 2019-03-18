@@ -6,6 +6,7 @@ const Beacon = sequelize.define('Beacons',{
         primaryKey: true
     },
         Coordinates:Sequelize.GEOMETRY('POINT'),
+        Floor:Sequelize.INTEGER,
         Building_ID:Sequelize.INTEGER,
     },
     {

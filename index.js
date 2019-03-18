@@ -69,20 +69,35 @@ function getBulding(building_ID){
     })
 }
 
+function getAllBeaconsFromBuildong(building_ID){
+    return Beacon.findAll({
+        where:{
+            Building_ID:building_ID
+        }
+    })
+}
+
 async function retrievAllDataAboutBuilding(building_ID){
     //При получении ID здания -> обращаемся в БД за матрицей и имнем здания
     //Имея имя здания находим карту, Формируем объект-ответ для пользователя {map:map,matrix:matrix}
     let query = await getBulding(building_ID);
     let map = await getMap(query[0].dataValues.Name);
+    //let beacons = await getAllBeaconsFromBuildong(building_ID);
+    /*for(beacon in beacons){
+        console.log(beacons[beacon].dataValues)
+    }*/
+    let beacons  = {};
+    await getAllBeaconsFromBuildong(building_ID).map(b=>{beacons[b.dataValues.UUID]=b.dataValues})
+    console.log(beacons)
     let matrix = query[0].dataValues.Matrix;
     let nodes = query[0].dataValues.Nodes;
-    return {map:map,matrix:matrix, nodes:nodes};
+    return {map:map,matrix:matrix, nodes:nodes, beacons:beacons};
 }
 
 
 //При запросе выдать соответствующую карту
-app.get('/map/:name', (req,res)=>{
-    let name = req.params.name.toLocaleLowerCase();
+app.get('/map/:id', (req,res)=>{
+    let id = req.params.id;
     /*let answer = {
         map:null,
         matrix:null
@@ -97,7 +112,7 @@ app.get('/map/:name', (req,res)=>{
     .then(()=>{
         console.log(answer)
     });*/
-    retrievAllDataAboutBuilding(2).then(result=>{
+    retrievAllDataAboutBuilding(id).then(result=>{
         //console.log(result)});
         res.setHeader('type','image/svg+xml');
         res.send(result);
