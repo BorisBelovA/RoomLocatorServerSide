@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="../../css/Map.css"?>
+<?xml-stylesheet type="text/css" href="../css/Map.css"?>
 
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 4358 3432" style="enable-background:new 0 0 4358 3432;" xml:space="preserve">
-
+<g id="Floor_1">
 <rect x="4130.5" y="2276.5" pointer-events="none" class="st0" width="10" height="390"/>
 <rect x="3650.5" y="2276.5" pointer-events="none" class="st0" width="490" height="10"/>
 <rect x="3656.5" y="1740.5" pointer-events="none" class="st0" width="700" height="10"/>
@@ -689,5 +689,6 @@
 	<text transform="matrix(1 0 0 1 3231.5 1980.6494)" class="st10 st9">КПП</text>
 	<rect x="4191.5" y="3166" class="name_rect" width="148" height="52"/>
 	<text transform="matrix(1 0 0 1 4191.5 3194.3994)" class="st10 st9">Вход</text>
+</g>
 </g>
 </svg>
