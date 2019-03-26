@@ -789,7 +789,7 @@
 	<rect x="860.5" y="340.5" pointer-events="none" class="st0" width="200" height="10"/>
 	<rect x="1140.5" y="340.5" pointer-events="none" class="st0" width="60" height="10"/>
 </g>
-<g id="Е40_2" class="room">
+<g id="Е40_2" class="room" cx="1270.5" cy="236">
 	<rect x="1200.5" y="340.5" pointer-events="none" class="st0" width="30" height="10"/>
 	<path pointer-events="none" class="st1" d="M1200.5,340.5V0.5h270v10h-260v330H1200.5z"/>
 	<path pointer-events="none" class="st1" d="M1590.5,50.5h-120v-50h10v40h110V50.5z"/>
