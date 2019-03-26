@@ -691,4 +691,272 @@
 	<text transform="matrix(1 0 0 1 4191.5 3194.3994)" class="st10 st9">Вход</text>
 </g>
 </g>
+<g id="Floor_2">
+<g id="WC_M_2" class="room">
+
+		<rect x="1196.5" y="2404.5" pointer-events="none" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1347.7412 1565.1954)" class="st0" width="38" height="10"/>
+	<path pointer-events="none" class="st1" d="M690.5,2510.5v-170h530v10h-520v160H690.5z"/>
+	<rect x="700.5" y="2500.5" pointer-events="none" class="st0" width="420" height="10"/>
+	<rect x="1220.5" y="2340.5" pointer-events="none" class="st0" width="10" height="60"/>
+
+		<rect x="1113" y="2489" pointer-events="none" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1431.8008 1531.2556)" class="st0" width="39" height="10"/>
+</g>
+<g id="WC_W_2" class="room">
+	<path pointer-events="none" class="st1" d="M1220.5,2341.5h-530v-180h530v10h-520v160h520V2341.5z"/>
+	<rect x="1220.5" y="2161.5" pointer-events="none" class="st0" width="10" height="39"/>
+	<rect x="1220.5" y="2270.5" pointer-events="none" class="st0" width="10" height="70"/>
+</g>
+<g id="Е17-а_2" class="room">
+	<path pointer-events="none" class="st1" d="M900.5,2160.5h-210v-420h210v10h-200v400h200V2160.5z"/>
+	<rect x="899.5" y="1900.5" pointer-events="none" class="st0" width="10" height="260"/>
+	<rect x="900.5" y="1740.5" pointer-events="none" class="st0" width="10" height="80"/>
+</g>
+<g id="Е17_2" class="room">
+	<rect x="1340.5" y="2150.5" pointer-events="none" class="st0" width="60" height="10"/>
+	<rect x="920.5" y="2150.5" pointer-events="none" class="st0" width="340" height="10"/>
+	<path pointer-events="none" class="st1" d="M920.5,1740.5h480v410h-10v-400h-470V1740.5z"/>
+	<rect x="910.5" y="1740.5" pointer-events="none" class="st0" width="10" height="80"/>
+	<rect x="909.5" y="1900.5" pointer-events="none" class="st0" width="10" height="260"/>
+</g>
+<rect x="690.5" y="2510.5" pointer-events="none" class="st0" width="10" height="70"/>
+<g id="Е22_2" class="room">
+	<path pointer-events="none" class="st1" d="M360.5,3150.5H0.5v-200h360v10h-350v180h350V3150.5z"/>
+	<rect x="350.5" y="3080.5" pointer-events="none" class="st0" width="10" height="60"/>
+	<rect x="350.5" y="2961.5" pointer-events="none" class="st0" width="10" height="39"/>
+</g>
+<g id="Е20-а_2" class="room">
+	<path pointer-events="none" class="st1" d="M260.5,3430.5H0.5v-280h260v10h-250v260h250V3430.5z"/>
+	<rect x="260.5" y="3330.5" pointer-events="none" class="st0" width="10" height="100"/>
+	<rect x="260.5" y="3150.5" pointer-events="none" class="st0" width="10" height="100"/>
+</g>
+<g id="Е20-б_2" class="room">
+	<path pointer-events="none" class="st1" d="M530.5,3150.5v-350h160v350h-10v-340h-140v340H530.5z"/>
+	<rect x="540.5" y="3140.5" pointer-events="none" class="st0" width="30" height="10"/>
+	<rect x="650.5" y="3140.5" pointer-events="none" class="st0" width="30" height="10"/>
+</g>
+<g id="Е20_2" class="room">
+	<path pointer-events="none" class="st1" d="M690.5,3430.5h-420v-100h10v90h410V3430.5z"/>
+	<rect x="360.5" y="3105.5" pointer-events="none" class="st0" width="50" height="10"/>
+	<path pointer-events="none" class="st1" d="M370.5,3105.5v55h-90v-10h80v-45H370.5z"/>
+	<rect x="270.5" y="3150.5" pointer-events="none" class="st0" width="10" height="100"/>
+	<rect x="650.5" y="3150.5" pointer-events="none" class="st0" width="40" height="10"/>
+	<rect x="680.5" y="3160.5" pointer-events="none" class="st0" width="10" height="260"/>
+	<rect x="530.5" y="3150.5" pointer-events="none" class="st0" width="40" height="10"/>
+	<rect x="520.5" y="3110.5" pointer-events="none" class="st0" width="10" height="50"/>
+	<rect x="490.5" y="3105.5" pointer-events="none" class="st0" width="40" height="10"/>
+</g>
+<rect x="680.5" y="2395.5" pointer-events="none" class="st0" width="10" height="185"/>
+<rect x="630.5" y="2385.5" pointer-events="none" class="st0" width="60" height="10"/>
+<rect x="400.5" y="2385.5" pointer-events="none" class="st0" width="10" height="325"/>
+<g id="Е24-а_2" class="room">
+	<path pointer-events="none" class="st1" d="M190.5,2390.5v-220h210v220h-10v-210h-190v210H190.5z"/>
+	<rect x="200.5" y="2380.5" pointer-events="none" class="st0" width="60" height="10"/>
+	<rect x="340.5" y="2380.5" pointer-events="none" class="st0" width="50" height="10"/>
+</g>
+<g id="Е24_2" class="room">
+	<path pointer-events="none" class="st1" d="M360.5,2840.5v109H0.5v-10h350v-99H360.5z"/>
+	<rect x="350.5" y="2710.5" pointer-events="none" class="st0" width="10" height="50"/>
+	<path pointer-events="none" class="st1" d="M400.5,2390.5v320h-50v-10h40v-310H400.5z"/>
+	<rect x="340.5" y="2390.5" pointer-events="none" class="st0" width="50" height="10"/>
+	<path pointer-events="none" class="st1" d="M0.5,2940.5v-550h260v10h-250v540H0.5z"/>
+</g>
+<g id="Е30_2" class="room">
+	<rect x="0.5" y="2380.5" pointer-events="none" class="st0" width="190" height="10"/>
+	<rect x="180.5" y="1920.5" pointer-events="none" class="st0" width="10" height="460"/>
+	<path pointer-events="none" class="st1" d="M0.5,2380.5v-566h190v10h-180v556H0.5z"/>
+	<rect x="180.5" y="1823.5" pointer-events="none" class="st0" width="10" height="17"/>
+</g>
+<g id="Е32_2" class="room">
+	<rect x="400.5" y="1710.5" pointer-events="none" class="st0" width="10" height="104"/>
+	<path pointer-events="none" class="st1" d="M400.5,1814.5H0.5v-234h10v224h390V1814.5z"/>
+	<path pointer-events="none" class="st1" d="M0.5,1580.5v-195h400v10h-390v185H0.5z"/>
+	<rect x="400.5" y="1385.5" pointer-events="none" class="st0" width="10" height="245"/>
+</g>
+<g id="Е34_2" class="room">
+	<path pointer-events="none" class="st1" d="M400.5,1385.6H0.5v-234h10v224h390V1385.6z"/>
+	<path pointer-events="none" class="st1" d="M0.5,1151.6v-195h400v10h-390v185H0.5z"/>
+	<rect x="400.5" y="1150.5" pointer-events="none" class="st0" width="10" height="235"/>
+	<rect x="400.5" y="956.5" pointer-events="none" class="st0" width="10" height="114"/>
+</g>
+<rect x="410.5" y="2385.5" pointer-events="none" class="st0" width="50" height="10"/>
+<rect x="170.5" y="834.5" pointer-events="none" class="st0" width="240" height="10"/>
+<rect x="400.5" y="344.5" pointer-events="none" class="st0" width="10" height="490"/>
+<rect x="180.5" y="340.5" pointer-events="none" class="st0" width="230" height="10"/>
+<rect x="410.5" y="340.5" pointer-events="none" class="st0" width="450" height="10"/>
+<g id="Е38_2" class="room">
+	<path pointer-events="none" class="st1" d="M860.5,340.5V0.5h340v340h-10v-330h-320v330H860.5z"/>
+	<rect x="860.5" y="340.5" pointer-events="none" class="st0" width="200" height="10"/>
+	<rect x="1140.5" y="340.5" pointer-events="none" class="st0" width="60" height="10"/>
+</g>
+<g id="Е40_2" class="room">
+	<rect x="1200.5" y="340.5" pointer-events="none" class="st0" width="30" height="10"/>
+	<path pointer-events="none" class="st1" d="M1200.5,340.5V0.5h270v10h-260v330H1200.5z"/>
+	<path pointer-events="none" class="st1" d="M1590.5,50.5h-120v-50h10v40h110V50.5z"/>
+	<path pointer-events="none" class="st1" d="M1590.5,40.5h100v600h-10v-590h-90V40.5z"/>
+	<path pointer-events="none" class="st1" d="M1680.5,640.5h-330v-300h10v290h320V640.5z"/>
+	<rect x="1310.5" y="340.5" pointer-events="none" class="st0" width="41" height="10"/>
+</g>
+<g id="Е36_2" class="room">
+	<rect x="170.5" y="844.5" pointer-events="none" class="st0" width="10" height="16"/>
+	<path pointer-events="none" class="st1" d="M180.5,956.5H0.5v-616h10v606h170V956.5z"/>
+	<path pointer-events="none" class="st1" d="M10.5,340.5h170v500h-10v-490h-160V340.5z"/>
+	<rect x="170.5" y="940.5" pointer-events="none" class="st0" width="10" height="6"/>
+</g>
+<g id="Е23_2" class="room">
+	<rect x="704.8" y="464.8" pointer-events="none" class="st0" width="450" height="10"/>
+	<rect x="700.5" y="470.5" pointer-events="none" class="st0" width="10" height="1130"/>
+	<rect x="700.5" y="1680.5" pointer-events="none" class="st0" width="10" height="60"/>
+	<path pointer-events="none" class="st1" d="M1149.8,464.8h100v1180h-10v-1170h-90V464.8z"/>
+	<path pointer-events="none" class="st1" d="M1245.5,1640.5v100h-535v-10h525v-90H1245.5z"/>
+</g>
+<rect x="1240.5" y="460.5" pointer-events="none" class="st0" width="115" height="10"/>
+<g id="Furniture">
+	<rect x="190.5" y="610.5" pointer-events="none" class="st2" width="200" height="200"/>
+	<path pointer-events="none" class="st3" d="M190.5,610.5l200,200 M390.5,610.5l-200,200"/>
+	<rect x="190.5" y="380.5" pointer-events="none" class="st2" width="200" height="200"/>
+	<path pointer-events="none" class="st3" d="M190.5,380.5l200,200 M390.5,380.5l-200,200"/>
+	<rect x="1260.5" y="2151" pointer-events="none" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M1340.5,2151c0-44.2-35.8-80-80-80v80"/>
+
+		<rect x="1135.7" y="2449.6" pointer-events="none" transform="matrix(0.7193 -0.6947 0.6947 0.7193 -1373.4753 1505.0687)" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M1148.7,2481.8c30.7,31.8,81.3,32.7,113.1,2l-55.6-57.5"/>
+	<rect x="1223" y="2193" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M1223,2193c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="902" y="1821" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M902,1821c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="353" y="3001" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M353,3001c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="263" y="3251" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M263,3251c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="570.5" y="3145" pointer-events="none" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M650.5,3145c0-44.2-35.8-80-80-80v80"/>
+	<rect x="410.5" y="3107.5" pointer-events="none" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M410.5,3112.5c0,44.2,35.8,80,80,80v-80"/>
+	<rect x="353" y="2760" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M358,2840c44.2,0,80-35.8,80-80h-80"/>
+	<rect x="260.5" y="2385.5" pointer-events="none" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M260.5,2390.5c0,44.2,35.8,80,80,80v-80"/>
+	<rect x="183" y="1841" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M183,1841c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="403" y="1631" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M403,1631c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="403" y="1071" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M403,1071c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="1230.5" y="340.5" pointer-events="none" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M1310.5,340.5c0-44.2-35.8-80-80-80v80"/>
+	<rect x="1060.5" y="340.5" pointer-events="none" class="st2" width="80" height="5"/>
+	<path pointer-events="none" class="st3" d="M1140.5,340.5c0-44.2-35.8-80-80-80v80"/>
+	<rect x="173" y="860.5" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M173,860.5c-44.2,0-80,35.8-80,80h80"/>
+	<rect x="703" y="1600.5" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M708,1680.5c44.2,0,80-35.8,80-80h-80"/>
+	<rect x="396.4" y="2023.5" pointer-events="none" class="st2" width="5" height="80"/>
+	<path pointer-events="none" class="st3" d="M396.4,2023.5c-44.2,0-80,35.8-80,80h80"/>
+</g>
+<g id="Е28_2" class="room">
+	<path pointer-events="none" class="st1" d="M400.5,2175.5h-210v-240h210v10h-200v220h200V2175.5z"/>
+	<line class="st4" x1="396" y1="2165.5" x2="396" y2="2103.5"/>
+	<line class="st4" x1="396" y1="2023.5" x2="396" y2="1945.5"/>
+</g>
+<circle id="Cross-24_2" class="st3" cx="545.5" cy="2712" r="2.5"/>
+<circle id="Cross-25_2" class="st3" cx="453.5" cy="2712" r="2.5"/>
+<circle id="Cross-26_2" class="st3" cx="453.5" cy="2802.5" r="2.5"/>
+<line id="Cross-24_2:Cross-25_2" class="st3" x1="545.5" y1="2712" x2="453.5" y2="2712"/>
+<line id="Cross-25_2:Cross-26_2" class="st3" x1="453.5" y1="2712" x2="453.5" y2="2802.5"/>
+<circle id="Cross-27_2" class="st3" cx="453.5" cy="3038.5" r="2.5"/>
+<line id="Cross-26_2:Cross-27_2" class="st3" x1="453.5" y1="2802.5" x2="453.5" y2="3038.6"/>
+<line id="Cross-27_2:Е22_2" class="st3" x1="453.5" y1="3038.5" x2="257.8" y2="3038.5"/>
+<circle id="Cross-28_2" class="st3" cx="610.5" cy="3291" r="2.5"/>
+<line id="Cross-27_2:Е20_2" class="st3" x1="453.5" y1="3038.5" x2="453.5" y2="3290.5"/>
+<line id="Е20_2:Е20-а_2" class="st3" x1="453.5" y1="3290.5" x2="161.7" y2="3290.5"/>
+<line id="Е20_2:Cross-28_2" class="st3" x1="453.5" y1="3290.5" x2="610.5" y2="3290.5"/>
+<line id="Cross-28_2:Е20-б_2" class="st3" x1="610.5" y1="3290.5" x2="610.5" y2="3038.5"/>
+<circle id="Cross-29_2" class="st3" cx="300.5" cy="2518" r="2.5"/>
+<line id="Е24_2:Cross-29_2" class="st3" x1="300.5" y1="2518" x2="300.5" y2="2802.5"/>
+<line id="Cross-29_2:Е24-а_2" class="st3" x1="300.5" y1="2518" x2="300.5" y2="2334.6"/>
+<line id="Cross-26_2:Е24_2" class="st3" x1="300.5" y1="2802.5" x2="453.5" y2="2802.5"/>
+<line id="Cross-24_2:Cross-30_2" class="st3" x1="545.5" y1="2712" x2="545.5" y2="2079"/>
+<circle id="Cross-30_2" class="st3" cx="545.5" cy="2079" r="2.5"/>
+<line id="Cross-30_2:Е28_2" class="st3" x1="545.5" y1="2079" x2="295.5" y2="2079"/>
+<circle id="Cross-31_2" class="st3" cx="545.5" cy="1881" r="2.5"/>
+<line id="Cross-30_2:Cross-31_2" class="st3" x1="545.5" y1="2079" x2="545.5" y2="1881"/>
+<line id="Cross-31_2:Е30_2" class="st3" x1="545.5" y1="1881" x2="97.8" y2="1881"/>
+<circle id="Cross-32_2" class="st3" cx="545.5" cy="1671" r="2.5"/>
+<line id="Cross-31_2:Cross-32_2" class="st3" x1="545.5" y1="1881" x2="545.5" y2="1671"/>
+<line id="Cross-32_2:Е32_2" class="st3" x1="545.5" y1="1671" x2="308" y2="1671"/>
+<circle id="Cross-33_2" class="st3" cx="545.5" cy="1640.5" r="2.5"/>
+<line id="Cross-32_2:Cross-33_2" class="st3" x1="545.5" y1="1671" x2="545.5" y2="1640.5"/>
+<line id="Cross-33_2:Е23_2" class="st3" x1="545.5" y1="1640.5" x2="837.2" y2="1640.5"/>
+<circle id="Cross-34_2" class="st3" cx="545.5" cy="1111" r="2.5"/>
+<line id="Cross-33_2:Cross-34_2" class="st3" x1="545.5" y1="1640.5" x2="545.5" y2="1111"/>
+<line id="Cross-34_2:Е34_2" class="st3" x1="545.5" y1="1111" x2="284" y2="1111"/>
+<circle id="Cross-35_2" class="st3" cx="545.5" cy="900.5" r="2.5"/>
+<line id="Cross-34_2:Cross-35_2" class="st3" x1="545.5" y1="1110.5" x2="545.5" y2="900.5"/>
+<line id="Cross-35_2:Е36_2" class="st3" x1="545.5" y1="900.5" x2="90.2" y2="900.5"/>
+<circle id="Cross-36_2" class="st3" cx="545.5" cy="406.5" r="2.5"/>
+<circle id="Cross-37_2" class="st3" cx="1100.5" cy="406.5" r="2.5"/>
+<circle id="Cross-38_2" class="st3" cx="1270.5" cy="406.5" r="2.5"/>
+<line id="Cross-35_2:Cross-36_2" class="st3" x1="545.3" y1="900.8" x2="545.3" y2="406.5"/>
+<line id="Cross-36_2:Cross-37_2" class="st3" x1="545.3" y1="406.5" x2="1100.4" y2="406.5"/>
+<line id="Cross-37_2:Е38_2" class="st3" x1="1100.4" y1="406.5" x2="1100.4" y2="225"/>
+<line id="Cross-37_2:Cross-38_2" class="st3" x1="1100.4" y1="406.5" x2="1270.5" y2="406.5"/>
+<line id="Cross-38_2:Е40_2" class="st3" x1="1270.5" y1="406.5" x2="1270.5" y2="236"/>
+<g id="Names">
+</g>
+
+	<g transform="translate(1161.5,1911.5)">
+		<text transform="matrix(1 0 0 1 -11.7 104.5)" class="st5 st6">17</text>
+	</g>
+	<g transform="translate(768.5,1998.5)">
+		<text transform="matrix(1 0 0 1 0.4707 17.5)" class="st5 st6">17-а</text>
+	</g>
+	<g transform="translate(909.5,2412.5)">
+		<text transform="matrix(1 0 0 1 0.3965 43.5)" class="st5 st6">WC_M</text>
+	</g>
+	<g transform="translate(901.5,2213.5)">
+		<text transform="matrix(1 0 0 1 1.1797 43.5)" class="st5 st6">WC_W</text>
+	</g>
+	<g transform="translate(477.5,3272.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">20</text>
+	</g>
+	<g transform="translate(81.5,3267.5)">
+		<text transform="matrix(1 0 0 1 0.4707 43.5)" class="st5 st6">20-а</text>
+	</g>
+	<g transform="translate(566.5,2969.5)">
+		<text transform="matrix(1 0 0 1 1.2402 43.5)" class="st5 st6">20-б</text>
+	</g>
+	<g transform="translate(151.5,3036.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">22</text>
+	</g>
+	<g transform="translate(171.5,2668.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">24</text>
+	</g>
+	<g transform="translate(246.5,2272.5)">
+		<text transform="matrix(1 0 0 1 -16 43.5)" class="st5 st6">24-а</text>
+	</g>
+	<g transform="translate(256.5,2035.5)">
+		<text transform="matrix(1 0 0 1 -28.2461 23.5)" class="st5 st6">28</text>
+	</g>
+	<g transform="translate(96.5,2015.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">30</text>
+	</g>
+	<g transform="translate(251.5,1609.5)">
+		<text transform="matrix(1 0 0 1 -28.7461 35.3)" class="st5 st6">32</text>
+	</g>
+	<g transform="translate(221.5,1199.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">34</text>
+	</g>
+	<g transform="translate(1495.5,345.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">40</text>
+	</g>
+	<g transform="translate(1021.5,163.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">38</text>
+	</g>
+	<g transform="translate(66.5,662.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">36</text>
+	</g>
+	<g transform="translate(945.5,1128.5)">
+		<text transform="matrix(1 0 0 1 1.2539 43.5)" class="st5 st6">23</text>
+	</g>
+</g>
 </svg>
