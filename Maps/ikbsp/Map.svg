@@ -32,7 +32,7 @@
 	<path pointer-events="none" class="st1" d="M3710.5,2589.5h-60v-49h10v39h50V2589.5z"/>
 	<rect x="3650.5" y="2297.5" pointer-events="none" class="st0" width="10" height="143"/>
 </g>
-<g id="КПП" class="room">
+<g id="КПП" class="room" cx="3405" cy="1865.5">
 	<rect x="3650.5" y="1940.5" pointer-events="none" class="st0" width="10" height="346"/>
 	<path pointer-events="none" class="st1" d="M3101.5,1740.5h549v50h-10v-40h-539V1740.5z"/>
 	<rect x="3101.5" y="1740.5" pointer-events="none" class="st0" width="10" height="620"/>
@@ -290,7 +290,7 @@
 <rect x="2021" y="2942" class="name_rect" width="129" height="109"/>
 <rect x="1771" y="2961" class="name_rect" width="145" height="119"/>
 <rect x="765" y="3059" class="name_rect" width="152" height="156"/>
-<g id="Е16" class="room">
+<g id="Е16" class="room" cx="1150.5" cy="3140.5">
 	<path pointer-events="none" class="st1" d="M1280.5,2880.5v550h-280v-550h10v540h260v-540H1280.5z"/>
 	<rect x="1150.5" y="2869.5" pointer-events="none" class="st0" width="120" height="10"/>
 	<rect x="1000.5" y="2869.5" pointer-events="none" class="st0" width="70" height="10"/>
