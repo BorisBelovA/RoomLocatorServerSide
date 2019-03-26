@@ -864,64 +864,64 @@
 <circle id="Cross-25_2" class="st3" cx="453.5" cy="2712" r="2.5"/>
 <circle id="Cross-26_2" class="st3" cx="453.5" cy="2802.5" r="2.5"/>
 
-<line id="Cross-24_2__Cross-25_2" class="road" x1="545.5" y1="2712" x2="453.5" y2="2712"/>
-<line id="Cross-25_2__Cross-26_2" class="road" x1="453.5" y1="2712" x2="453.5" y2="2802.5"/>
+<line id="Cross-24_2__Cross-25_2" class="road" x1="545.5" y1="2712" x2="453.5" y2="2712" data-direction="x" />
+<line id="Cross-25_2__Cross-26_2" class="road" x1="453.5" y1="2712" x2="453.5" y2="2802.5" data-direction="y"/>
 
 <circle id="Cross-27_2" class="st3" cx="453.5" cy="3038.5" r="2.5"/>
 
-<line id="Cross-26_2__Cross-27_2" class="road" x1="453.5" y1="2802.5" x2="453.5" y2="3038.6"/>
-<line id="Cross-27_2__Е22_2" class="road" x1="453.5" y1="3038.5" x2="257.8" y2="3038.5"/>
+<line id="Cross-26_2__Cross-27_2" class="road" x1="453.5" y1="2802.5" x2="453.5" y2="3038.6" data-direction="y"/>
+<line id="Cross-27_2__Е22_2" class="road" x1="453.5" y1="3038.5" x2="257.8" y2="3038.5" data-direction="x"/>
 
 <circle id="Cross-28_2" class="st3" cx="610.5" cy="3291" r="2.5"/>
 
-<line id="Cross-27_2__Е20_2" class="road" x1="453.5" y1="3038.5" x2="453.5" y2="3290.5"/>
-<line id="Е20_2__Е20-а_2" class="road" x1="453.5" y1="3290.5" x2="161.7" y2="3290.5"/>
-<line id="Е20_2__Cross-28_2" class="road" x1="453.5" y1="3290.5" x2="610.5" y2="3290.5"/>
-<line id="Cross-28_2__Е20-б_2" class="road" x1="610.5" y1="3290.5" x2="610.5" y2="3038.5"/>
+<line id="Cross-27_2__Е20_2" class="road" x1="453.5" y1="3038.5" x2="453.5" y2="3290.5" data-direction="y"/>
+<line id="Е20_2__Е20-а_2" class="road" x1="453.5" y1="3290.5" x2="161.7" y2="3290.5" data-direction="x"/>
+<line id="Е20_2__Cross-28_2" class="road" x1="453.5" y1="3290.5" x2="610.5" y2="3290.5" data-direction="x"/>
+<line id="Cross-28_2__Е20-б_2" class="road" x1="610.5" y1="3290.5" x2="610.5" y2="3038.5" data-direction="y"/>
 
 <circle id="Cross-29_2" class="st3" cx="300.5" cy="2518" r="2.5"/>
 
-<line id="Е24_2__Cross-29_2" class="road" x1="300.5" y1="2518" x2="300.5" y2="2802.5"/>
-<line id="Cross-29_2__Е24-а_2" class="road" x1="300.5" y1="2518" x2="300.5" y2="2334.6"/>
-<line id="Cross-26_2__Е24_2" class="road" x1="300.5" y1="2802.5" x2="453.5" y2="2802.5"/>
-<line id="Cross-24_2__Cross-30_2" class="road" x1="545.5" y1="2712" x2="545.5" y2="2079"/>
+<line id="Е24_2__Cross-29_2" class="road" x1="300.5" y1="2518" x2="300.5" y2="2802.5" data-direction="y"/>
+<line id="Cross-29_2__Е24-а_2" class="road" x1="300.5" y1="2518" x2="300.5" y2="2334.6" data-direction="y"/>
+<line id="Cross-26_2__Е24_2" class="road" x1="300.5" y1="2802.5" x2="453.5" y2="2802.5" data-direction="x"/>
+<line id="Cross-24_2__Cross-30_2" class="road" x1="545.5" y1="2712" x2="545.5" y2="2079" data-direction="y"/>
 
 <circle id="Cross-30_2" class="st3" cx="545.5" cy="2079" r="2.5"/>
 
-<line id="Cross-30_2__Е28_2" class="road" x1="545.5" y1="2079" x2="295.5" y2="2079"/>
+<line id="Cross-30_2__Е28_2" class="road" x1="545.5" y1="2079" x2="295.5" y2="2079" data-direction="x"/>
 <circle id="Cross-31_2" class="st3" cx="545.5" cy="1881" r="2.5"/>
-<line id="Cross-30_2__Cross-31_2" class="road" x1="545.5" y1="2079" x2="545.5" y2="1881"/>
-<line id="Cross-31_2__Е30_2" class="road" x1="545.5" y1="1881" x2="97.8" y2="1881"/>
+<line id="Cross-30_2__Cross-31_2" class="road" x1="545.5" y1="2079" x2="545.5" y2="1881" data-direction="y"/>
+<line id="Cross-31_2__Е30_2" class="road" x1="545.5" y1="1881" x2="97.8" y2="1881" data-direction="x"/>
 
 <circle id="Cross-32_2" class="st3" cx="545.5" cy="1671" r="2.5"/>
 
-<line id="Cross-31_2__Cross-32_2" class="road" x1="545.5" y1="1881" x2="545.5" y2="1671"/>
-<line id="Cross-32_2__Е32_2" class="road" x1="545.5" y1="1671" x2="308" y2="1671"/>
+<line id="Cross-31_2__Cross-32_2" class="road" x1="545.5" y1="1881" x2="545.5" y2="1671" data-direction="y"/>
+<line id="Cross-32_2__Е32_2" class="road" x1="545.5" y1="1671" x2="308" y2="1671" data-direction="x"/>
 
 <circle id="Cross-33_2" class="st3" cx="545.5" cy="1640.5" r="2.5"/>
 
-<line id="Cross-32_2__Cross-33_2" class="road" x1="545.5" y1="1671" x2="545.5" y2="1640.5"/>
-<line id="Cross-33_2__Е23_2" class="road" x1="545.5" y1="1640.5" x2="837.2" y2="1640.5"/>
+<line id="Cross-32_2__Cross-33_2" class="road" x1="545.5" y1="1671" x2="545.5" y2="1640.5" data-direction="y"/>
+<line id="Cross-33_2__Е23_2" class="road" x1="545.5" y1="1640.5" x2="837.2" y2="1640.5" data-direction="x"/>
 
 <circle id="Cross-34_2" class="st3" cx="545.5" cy="1111" r="2.5"/>
 
-<line id="Cross-33_2__Cross-34_2" class="road" x1="545.5" y1="1640.5" x2="545.5" y2="1111"/>
-<line id="Cross-34_2__Е34_2" class="road" x1="545.5" y1="1111" x2="284" y2="1111"/>
+<line id="Cross-33_2__Cross-34_2" class="road" x1="545.5" y1="1640.5" x2="545.5" y2="1111" data-direction="y"/>
+<line id="Cross-34_2__Е34_2" class="road" x1="545.5" y1="1111" x2="284" y2="1111" data-direction="x"/>
 
 <circle id="Cross-35_2" class="st3" cx="545.5" cy="900.5" r="2.5"/>
 
-<line id="Cross-34_2__Cross-35_2" class="road" x1="545.5" y1="1110.5" x2="545.5" y2="900.5"/>
-<line id="Cross-35_2__Е36_2" class="road" x1="545.5" y1="900.5" x2="90.2" y2="900.5"/>
+<line id="Cross-34_2__Cross-35_2" class="road" x1="545.5" y1="1110.5" x2="545.5" y2="900.5" data-direction="y"/>
+<line id="Cross-35_2__Е36_2" class="road" x1="545.5" y1="900.5" x2="90.2" y2="900.5" data-direction="x"/>
 
 <circle id="Cross-36_2" class="st3" cx="545.5" cy="406.5" r="2.5"/>
 <circle id="Cross-37_2" class="st3" cx="1100.5" cy="406.5" r="2.5"/>
 <circle id="Cross-38_2" class="st3" cx="1270.5" cy="406.5" r="2.5"/>
 
-<line id="Cross-35_2__Cross-36_2" class="road" x1="545.3" y1="900.8" x2="545.3" y2="406.5"/>
-<line id="Cross-36_2__Cross-37_2" class="road" x1="545.3" y1="406.5" x2="1100.4" y2="406.5"/>
-<line id="Cross-37_2__Е38_2" class="road" x1="1100.4" y1="406.5" x2="1100.4" y2="225"/>
-<line id="Cross-37_2__Cross-38_2" class="road" x1="1100.4" y1="406.5" x2="1270.5" y2="406.5"/>
-<line id="Cross-38_2__Е40_2" class="road" x1="1270.5" y1="406.5" x2="1270.5" y2="236"/>
+<line id="Cross-35_2__Cross-36_2" class="road" x1="545.3" y1="900.8" x2="545.3" y2="406.5" data-direction="y"/>
+<line id="Cross-36_2__Cross-37_2" class="road" x1="545.3" y1="406.5" x2="1100.4" y2="406.5" data-direction="y"/>
+<line id="Cross-37_2__Е38_2" class="road" x1="1100.4" y1="406.5" x2="1100.4" y2="225" data-direction="y"/>
+<line id="Cross-37_2__Cross-38_2" class="road" x1="1100.4" y1="406.5" x2="1270.5" y2="406.5" data-direction="x"/>
+<line id="Cross-38_2__Е40_2" class="road" x1="1270.5" y1="406.5" x2="1270.5" y2="236" data-direction="y"/>
 
 <g id="Names">
 <g transform="translate(1161.5,1911.5)">
