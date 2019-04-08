@@ -226,36 +226,36 @@
 	<circle id="Cross-3" class="st3" cx="523.5" cy="558" r="5"/>
 	<circle id="Cross-4" class="st3" cx="523.5" cy="660.5" r="5"/>
 	<circle id="Cross-5" class="st3" cx="354.5" cy="660.5" r="5"/>
-	<line id="Cross-1__Cross-2" class="st3" x1="590.5" y1="390.5" x2="590.5" y2="557.5"/>
-	<line id="Cross-2__Cross-3" class="st3" x1="523.5" y1="558" x2="590.5" y2="557.5"/>
-	<line id="Cross-3__Cross-4" class="st3" x1="523.5" y1="660.5" x2="523.5" y2="558"/>
-	<line id="Cross-4__Cross-5" class="st3" x1="523.5" y1="660.5" x2="354.5" y2="660.5"/>
+	<line id="Cross-1__Cross-2" class="road" x1="590.5" y1="390.5" x2="590.5" y2="557.5"/>
+	<line id="Cross-2__Cross-3" class="road" x1="523.5" y1="558" x2="590.5" y2="557.5"/>
+	<line id="Cross-3__Cross-4" class="road" x1="523.5" y1="660.5" x2="523.5" y2="558"/>
+	<line id="Cross-4__Cross-5" class="road" x1="523.5" y1="660.5" x2="354.5" y2="660.5"/>
 	<circle id="Гостинная" class="st3" cx="345.3" cy="390.5" r="5"/>
-	<line id="Гостинная__Cross-1" class="st3" x1="345.3" y1="390.5" x2="590.5" y2="390.5"/>
+	<line id="Гостинная__Cross-1" class="road" x1="345.3" y1="390.5" x2="590.5" y2="390.5"/>
 	<circle id="Cross-6" class="st3" cx="995.5" cy="390.5" r="5"/>
 	<circle id="Детская" class="st3" cx="835.5" cy="390.5" r="5"/>
-	<line id="Cross-1__Детская" class="st3" x1="590.5" y1="390.5" x2="835.5" y2="390.5"/>
-	<line id="Детская__Cross-6" class="st3" x1="835.5" y1="390.5" x2="995.5" y2="390.5"/>
+	<line id="Cross-1__Детская" class="road" x1="590.5" y1="390.5" x2="835.5" y2="390.5"/>
+	<line id="Детская__Cross-6" class="road" x1="835.5" y1="390.5" x2="995.5" y2="390.5"/>
 	<circle id="Гардероб" class="st3" cx="994.9" cy="135.5" r="5"/>
-	<line id="Cross-6__Гардероб" class="st3" x1="995.5" y1="390.5" x2="994.9" y2="135.5"/>
+	<line id="Cross-6__Гардероб" class="road" x1="995.5" y1="390.5" x2="994.9" y2="135.5"/>
 	<circle id="Cross-6" class="st3" cx="590.5" cy="145.5" r="5"/>
-	<line id="Вход__Cross-1" class="st3" x1="590.5" y1="390.5" x2="590.5" y2="145.5"/>
+	<line id="Вход__Cross-1" class="road" x1="590.5" y1="390.5" x2="590.5" y2="145.5"/>
 	<circle id="Туалет" class="st3" cx="354.5" cy="750" r="5"/>
 	<circle id="Ванная" class="st3" cx="523.5" cy="750" r="5"/>
-	<line id="Cross-5__Туалет" class="st3" x1="354.5" y1="660.5" x2="354.5" y2="750"/>
-	<line id="Cross-4__Ванная" class="st3" x1="523.5" y1="660.5" x2="523.5" y2="750"/>
+	<line id="Cross-5__Туалет" class="road" x1="354.5" y1="660.5" x2="354.5" y2="750"/>
+	<line id="Cross-4__Ванная" class="road" x1="523.5" y1="660.5" x2="523.5" y2="750"/>
 	<circle id="Спальня" class="st3" cx="663" cy="660.5" r="5"/>
 	<circle id="Cross-7" class="st3" cx="663" cy="641" r="5"/>
 	<circle id="Cross-8" class="st3" cx="901" cy="641" r="5"/>
 	<circle id="Cross-9" class="st3" cx="901" cy="685.5" r="5"/>
 	<circle id="Балкон" class="st3" cx="1020" cy="685.5" r="5"/>
-	<line id="Cross-4__Спальня" class="st3" x1="523.5" y1="660.5" x2="663" y2="660.5"/>
-	<line id="Спальня__Cross-7" class="st3" x1="663" y1="660.5" x2="663" y2="641"/>
-	<line id="Cross-7__Cross-8" class="st3" x1="663" y1="641" x2="901" y2="641"/>
-	<line id="Cross-8__Cross-9" class="st3" x1="901" y1="641" x2="901" y2="685.5"/>
-	<line id="Cross-9__Балкон" class="st3" x1="901" y1="685.5" x2="1020" y2="685.5"/>
+	<line id="Cross-4__Спальня" class="road" x1="523.5" y1="660.5" x2="663" y2="660.5"/>
+	<line id="Спальня__Cross-7" class="road" x1="663" y1="660.5" x2="663" y2="641"/>
+	<line id="Cross-7__Cross-8" class="road" x1="663" y1="641" x2="901" y2="641"/>
+	<line id="Cross-8__Cross-9" class="road" x1="901" y1="641" x2="901" y2="685.5"/>
+	<line id="Cross-9__Балкон" class="road" x1="901" y1="685.5" x2="1020" y2="685.5"/>
 	<circle id="Кухня" class="st3" cx="230.1" cy="660.5" r="5"/>
-	<line id="Cross-5__Кухня" class="st3" x1="354.5" y1="660.5" x2="230.1" y2="660.5"/>
+	<line id="Cross-5__Кухня" class="road" x1="354.5" y1="660.5" x2="230.1" y2="660.5"/>
 	<g id="rooms">
 <text transform="matrix(1 0 0 1 127 337)" class="text">Гостинная</text>
 	<text transform="matrix(1 0 0 1 568 122)" class="text">Вход</text>
