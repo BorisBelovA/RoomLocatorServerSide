@@ -6,51 +6,51 @@
 	 viewBox="0 0 1102 852" style="enable-background:new 0 0 1102 852;" xml:space="preserve">
 
 <g id="Floor_1">
-	<g id="Гостинная">
+	<g id="Гостинная" class="room">
 		<path pointer-events="none" class="st0" d="M0.5,180.5h470v150h-10v-140H0.5V180.5z"/>
 		<path pointer-events="none" class="st0" d="M100.5,590.5H0.5v-400h10v390h90V590.5z"/>
 		<path pointer-events="none" class="st0" d="M470.5,450.5v140h-370v-10h360v-130H470.5z"/>
 	</g>
-	<g id="Гардероб">
+	<g id="Гардероб" class="room">
 		<path pointer-events="none" class="st0" d="M700.5,170.5V0.5h400v170h-10v-160h-380v160H700.5z"/>
 		<rect x="700.5" y="170.5" pointer-events="none" class="st1" width="250" height="10"/>
 		<rect x="1040.5" y="170.5" pointer-events="none" class="st1" width="60" height="10"/>
 	</g>
-	<g id="Детская">
+	<g id="Детская" class="room">
 		<path pointer-events="none" class="st0" d="M920.5,590.5h-220v-180h10v170h210V590.5z"/>
 		<rect x="700.5" y="180.5" pointer-events="none" class="st1" width="10" height="150"/>
 		<path pointer-events="none" class="st0" d="M1100.5,180.5v410h-180v-10h170v-400H1100.5z"/>
 		<rect x="700.5" y="170.5" pointer-events="none" class="st1" width="250" height="10"/>
 		<rect x="1030.5" y="170.5" pointer-events="none" class="st1" width="70" height="10"/>
 	</g>
-	<g id="Кухня">
+	<g id="Кухня" class="room">
 		<path pointer-events="none" class="st0" d="M290.5,850.5H0.5v-260h290v10h-280v240h280V850.5z"/>
 		<rect x="289.5" y="590.5" pointer-events="none" class="st1" width="10" height="50"/>
 		<rect x="289.5" y="710.5" pointer-events="none" class="st1" width="10" height="140"/>
 	</g>
-	<g id="Балкон">
+	<g id="Балкон" class="room">
 		<path pointer-events="none" class="st0" d="M960.5,660.5v-70h100v10h-90v60H960.5z"/>
 		<path pointer-events="none" class="st0" d="M1060.5,590.5h40v150h-10v-140h-30V590.5z"/>
 		<path pointer-events="none" class="st0" d="M1100.5,740.5v110h-60v-10h50v-100H1100.5z"/>
 		<path pointer-events="none" class="st0" d="M1040.5,850.5h-80v-120h10v110h70V850.5z"/>
 	</g>
-	<g id="Спальня">
+	<g id="Спальня" class="room">
 		<path pointer-events="none" class="st0" d="M710.5,590.5h250v70h-10v-60h-240V590.5z"/>
 		<path pointer-events="none" class="st0" d="M960.5,730.5v120h-270v-10h260v-110H960.5z"/>
 		<path pointer-events="none" class="st0" d="M690.5,850.5h-100v-140h10v130h90V850.5z"/>
 		<path pointer-events="none" class="st0" d="M590.5,630.5v-40h120v10h-110v30H590.5z"/>
 	</g>
-	<g id="Ванная">
+	<g id="Ванная" class="room">
 		<path pointer-events="none" class="st0" d="M590.5,740.5v110h-180v-110h10v100h160v-100H590.5z"/>
 		<rect x="540.5" y="730.5" pointer-events="none" class="st1" width="50" height="10"/>
 		<rect x="410.5" y="730.5" pointer-events="none" class="st1" width="50" height="10"/>
 	</g>
-	<g id="Туалет">
+	<g id="Туалет" class="room">
 		<path pointer-events="none" class="st0" d="M410.5,740.5v110h-110v-110h10v100h90v-100H410.5z"/>
 		<rect x="300.5" y="730.5" pointer-events="none" class="st1" width="20" height="10"/>
 		<rect x="390.5" y="730.5" pointer-events="none" class="st1" width="20" height="10"/>
 	</g>
-	<g id="Вход">
+	<g id="Вход" class="room">
 		<rect x="460.5" y="170.5" pointer-events="none" class="st1" width="50" height="10"/>
 		<rect x="650.5" y="170.5" pointer-events="none" class="st1" width="50" height="10"/>
 		<path pointer-events="none" class="st0" d="M460.5,170.5V0.5h90v10h-80v160H460.5z"/>
