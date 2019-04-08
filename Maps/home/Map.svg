@@ -256,15 +256,15 @@
 	<circle id="Кухня" class="st3" cx="230.1" cy="660.5" r="5"/>
 	<line id="Cross-5__Кухня" class="st3" x1="354.5" y1="660.5" x2="230.1" y2="660.5"/>
 	<g id="rooms">
-<text transform="matrix(1 0 0 1 127 337)" class="st6 st7">Гостинная</text>
-	<text transform="matrix(1 0 0 1 568 122)" class="st6 st7">Вход</text>
-	<text transform="matrix(1 0 0 1 770 134)" class="st6 st7">Гардероб</text>
-	<text transform="matrix(1 0 0 1 908 427)" class="st6 st7">Детская</text>
-	<text transform="matrix(1 0 0 1 171 720.5)" class="st6 st7">Кухня</text>
-	<text transform="matrix(1 0 0 1 731 630.5)" class="st6 st7">Спальня</text>
-	<text transform="matrix(1 0 0 1 996 750)" class="st6 st7">Балкон</text>
-	<text transform="matrix(1 0 0 1 461 769.5)" class="st6 st7">Ванная</text>
-	<text transform="matrix(1 0 0 1 320.5 761.5)" class="st6 st7">Туалет</text>
+<text transform="matrix(1 0 0 1 127 337)" class="text">Гостинная</text>
+	<text transform="matrix(1 0 0 1 568 122)" class="text">Вход</text>
+	<text transform="matrix(1 0 0 1 770 134)" class="text">Гардероб</text>
+	<text transform="matrix(1 0 0 1 908 427)" class="text">Детская</text>
+	<text transform="matrix(1 0 0 1 171 720.5)" class="text">Кухня</text>
+	<text transform="matrix(1 0 0 1 731 630.5)" class="text">Спальня</text>
+	<text transform="matrix(1 0 0 1 996 750)" class="text">Балкон</text>
+	<text transform="matrix(1 0 0 1 461 769.5)" class="text">Ванная</text>
+	<text transform="matrix(1 0 0 1 320.5 761.5)" class="text">Туалет</text>
 </g>
 </g>
 </svg>
