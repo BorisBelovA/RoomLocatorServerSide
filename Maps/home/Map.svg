@@ -246,7 +246,7 @@
 
 	<line id="Cross-6__Гардероб" class="road" x1="995.5" y1="390.5" x2="995.5" y2="135.5" data-direction="y"/>
 
-	<circle id="Cross-6" class="st3" cx="590.5" cy="145.5" r="5"/>
+	<circle id="Вход" class="st3" cx="590.5" cy="145.5" r="5"/>
 
 	<line id="Вход__Cross-1" class="road" x1="590.5" y1="390.5" x2="590.5" y2="145.5" data-direction="y"/>
 
