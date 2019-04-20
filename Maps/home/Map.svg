@@ -221,46 +221,46 @@
 	<rect x="552" y="0.5" pointer-events="none" class="st2" width="80" height="5"/>
 	<path pointer-events="none" class="st3" d="M552,5.5c0,44.2,35.8,80,80,80v-80"/>
 </g>
-	<circle id="Cross-1" class="st3 cross" cx="590.5" cy="390.5" r="5"/>
-	<circle id="Cross-2" class="st3 cross" cx="590.5" cy="557.5" r="5"/>
-	<circle id="Cross-3" class="st3 cross" cx="523.5" cy="558" r="5"/>
-	<circle id="Cross-4" class="st3 cross" cx="523.5" cy="660.5" r="5"/>
-	<circle id="Cross-5" class="st3 cross" cx="354.5" cy="660.5" r="5"/>
+	<circle id="Cross-1" class="cross" cx="590.5" cy="390.5" r="5"/>
+	<circle id="Cross-2" class="cross" cx="590.5" cy="557.5" r="5"/>
+	<circle id="Cross-3" class="cross" cx="523.5" cy="558" r="5"/>
+	<circle id="Cross-4" class="cross" cx="523.5" cy="660.5" r="5"/>
+	<circle id="Cross-5" class="cross" cx="354.5" cy="660.5" r="5"/>
 
 	<line id="Cross-1__Cross-2" class="road" x1="590.5" y1="390.5" x2="590.5" y2="557.5" data-direction="y"/>
 	<line id="Cross-2__Cross-3" class="road" x1="523.5" y1="558" x2="590.5" y2="558" data-direction="x"/>
 	<line id="Cross-3__Cross-4" class="road" x1="523.5" y1="660.5" x2="523.5" y2="558" data-direction="y"/>
 	<line id="Cross-4__Cross-5" class="road" x1="523.5" y1="660.5" x2="354.5" y2="660.5" data-direction="x"/>
 
-	<circle id="Гостинная" class="st3 cross" cx="345.3" cy="390.5" r="5"/>
+	<circle id="Гостинная" class="cross" cx="345.3" cy="390.5" r="5"/>
 
 	<line id="Гостинная__Cross-1" class="road" x1="345.3" y1="390.5" x2="590.5" y2="390.5" data-direction="x"/>
 
-	<circle id="Cross-6" class="st3 cross" cx="995.5" cy="390.5" r="5"/>
-	<circle id="Детская" class="st3 cross" cx="835.5" cy="390.5" r="5"/>
+	<circle id="Cross-6" class="cross" cx="995.5" cy="390.5" r="5"/>
+	<circle id="Детская" class="cross" cx="835.5" cy="390.5" r="5"/>
 
 	<line id="Cross-1__Детская" class="road" x1="590.5" y1="390.5" x2="835.5" y2="390.5" data-direction="x"/>
 	<line id="Детская__Cross-6" class="road" x1="835.5" y1="390.5" x2="995.5" y2="390.5" data-direction="x"/>
 
-	<circle id="Гардероб" class="st3 cross" cx="994.9" cy="135.5" r="5"/>
+	<circle id="Гардероб" class="cross" cx="994.9" cy="135.5" r="5"/>
 
 	<line id="Cross-6__Гардероб" class="road" x1="995.5" y1="390.5" x2="995.5" y2="135.5" data-direction="y"/>
 
-	<circle id="Вход" class="st3 cross" cx="590.5" cy="145.5" r="5"/>
+	<circle id="Вход" class="cross" cx="590.5" cy="145.5" r="5"/>
 
 	<line id="Вход__Cross-1" class="road" x1="590.5" y1="390.5" x2="590.5" y2="145.5" data-direction="y"/>
 
-	<circle id="Туалет" class="st3 cross" cx="354.5" cy="750" r="5"/>
-	<circle id="Ванная" class="st3 cross" cx="523.5" cy="750" r="5"/>
+	<circle id="Туалет" class="cross" cx="354.5" cy="750" r="5"/>
+	<circle id="Ванная" class="cross" cx="523.5" cy="750" r="5"/>
 
 	<line id="Cross-5__Туалет" class="road" x1="354.5" y1="660.5" x2="354.5" y2="750" data-direction="y"/>
 	<line id="Cross-4__Ванная" class="road" x1="523.5" y1="660.5" x2="523.5" y2="750" data-direction="y"/>
 
-	<circle id="Спальня" class="st3 cross" cx="663" cy="660.5" r="5"/>
-	<circle id="Cross-7" class="st3 cross" cx="663" cy="641" r="5"/>
-	<circle id="Cross-8" class="st3 cross" cx="901" cy="641" r="5"/>
-	<circle id="Cross-9" class="st3 cross" cx="901" cy="685.5" r="5"/>
-	<circle id="Балкон" class="st3 cross" cx="1020" cy="685.5" r="5"/>
+	<circle id="Спальня" class="cross" cx="663" cy="660.5" r="5"/>
+	<circle id="Cross-7" class="cross" cx="663" cy="641" r="5"/>
+	<circle id="Cross-8" class="cross" cx="901" cy="641" r="5"/>
+	<circle id="Cross-9" class="cross" cx="901" cy="685.5" r="5"/>
+	<circle id="Балкон" class="cross" cx="1020" cy="685.5" r="5"/>
 
 	<line id="Cross-4__Спальня" class="road" x1="523.5" y1="660.5" x2="663" y2="660.5" data-direction="x"/>
 	<line id="Спальня__Cross-7" class="road" x1="663" y1="660.5" x2="663" y2="641" data-direction="y"/>
@@ -268,7 +268,7 @@
 	<line id="Cross-8__Cross-9" class="road" x1="901" y1="641" x2="901" y2="685.5" data-direction="y"/>
 	<line id="Cross-9__Балкон" class="road" x1="901" y1="685.5" x2="1020" y2="685.5" data-direction="x"/>
 
-	<circle id="Кухня" class="st3 cross" cx="230.1" cy="660.5" r="5"/>
+	<circle id="Кухня" class="cross" cx="230.1" cy="660.5" r="5"/>
 
 	<line id="Cross-5__Кухня" class="road" x1="354.5" y1="660.5" x2="230.1" y2="660.5" data-direction="x"/>
 
